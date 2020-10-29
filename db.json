@@ -1,0 +1,25 @@
+{
+  "interviewees": [
+    {
+      "name": "Shaurya Sharma",
+      "phone": "8921034566",
+      "skills": "BlockChain, TwitterIonic",
+      "status": "Approved",
+      "id": 1
+    },
+    {
+      "name": "Bidisha Das",
+      "phone": "8982942586",
+      "skills": "Vue, Java",
+      "status": "Disapproved",
+      "id": 2
+    },
+    {
+      "name": "Arani Das",
+      "phone": "6213456789",
+      "skills": "C,Java",
+      "status": "Approved",
+      "id": 3
+    }
+  ]
+}

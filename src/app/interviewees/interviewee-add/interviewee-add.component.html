@@ -1,0 +1,29 @@
+<h3>Add Interviewee</h3>
+
+<form class="form mb-4">
+  <form [formGroup]="intervieweeForm" (submit)="createInterviewee()" class="form-inline mb-4"> 
+    <label class="sr-only" for="Name">Name</label>
+    <div class="input-group mb-2 mr-sm-2">
+      <input type="text" class="form-control" formControlName="name" placeholder="name">
+    </div>
+
+    <label class="sr-only" for="Phone">Phone</label>
+    <div class="input-group mb-2 mr-sm-2">
+      <input type="text" class="form-control" formControlName="phone" placeholder="Phone">
+    </div>
+
+    <label class="sr-only" for="Skills">Skills</label>
+    <div class="input-group mb-2 mr-sm-2">
+      <input type="text" class="form-control" formControlName="skills" placeholder="Skills">
+    </div>
+
+    <label class="sr-only" for="status">Status</label>
+    <div class="input-group mb-2 mr-sm-2">
+      <select formControlName="status" class="form-control">
+        <option>Approved</option>
+        <option>Disapproved</option>
+        
+      </select>
+    </div>
+    <button type="submit" class="btn btn-primary mb-2">Add Interviewee</button>
+  </form> 
