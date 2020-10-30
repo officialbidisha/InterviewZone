@@ -1,5 +1,5 @@
 export interface Interviewee {
-    id?: number;
+    id?: number;//safe traversal operator
     name: string;
     phone: string;
     skills: string;

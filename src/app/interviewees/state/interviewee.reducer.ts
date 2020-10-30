@@ -41,7 +41,7 @@ import { Interviewee } from "../interviewee.model";
 import * as fromRoot from "../../state/app-state";
 
 export interface IntervieweeState extends EntityState<Interviewee> {
-  selectedIntervieweeId: number | null;
+  selectedIntervieweeId: number | null;//entity
   loading: boolean;
   loaded: boolean;
   error: string;
@@ -53,7 +53,7 @@ export interface AppState extends fromRoot.AppState {
 
 export const intervieweeAdapter: EntityAdapter<Interviewee> = createEntityAdapter<
   Interviewee
->();
+>();//entityadapter
 
 export const defaultInterviewee: IntervieweeState = {
   ids: [],

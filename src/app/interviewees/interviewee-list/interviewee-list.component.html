@@ -1,4 +1,5 @@
 <h3>Interviewees</h3>
+
 <table class="table table-hover">
   <thead>
     <tr class="table-primary">
@@ -6,9 +7,12 @@
       <th scope="col">Phone</th>
       <th scope="col">Skills</th>
       <th scope="col">Status</th>
-      <th></th>
+      <th scope="col"></th>
+      <th scope="col"></th>
+     
     </tr>
   </thead>
+
   <tbody>
     <!-- <tr>
       <td colspan="5" class="alert alert-danger" *ngIf="error$ | async as error">{{error}}</td>
@@ -16,17 +20,15 @@
     <tr>
     <tr *ngFor="let interviewee of (interviewees$|async)"> 
       <th scope="row">{{interviewee.name}}</th>
-      
+
       <td>{{interviewee.phone}}</td>
       <td>{{interviewee.skills}}</td>
       <td>{{interviewee.status}}</td>
-      <th>
-         
-        <a (click)=editInterviewee(interviewee)>edit</a>
-        <br>
-       
-        <a (click)=deleteInterviewee(interviewee)>delete</a> 
-      </th>
-    </tr>
+      <!-- <th> -->
+      <td><button type="button" class="btn btn-primary" (click)=editInterviewee(interviewee)>Edit</button></td>
+        <!-- <div class="m-2"></div> -->
+      <td><button type="button" class="btn btn-danger" (click)=deleteInterviewee(interviewee)>Delete</button></td>
+      
+  </tr>
   </tbody>
 </table>

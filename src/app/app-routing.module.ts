@@ -8,7 +8,7 @@ const appRoutes: Routes = [
   
   {path: "", component: HomeComponent },
   { path:"interviewees",
-  
+   // loadChildren: "../app/interviewees/interviewees.module#IntervieweesModule"
      loadChildren: () =>
              import('./interviewees/interviewees.module').then(
                (m) => m.IntervieweesModule

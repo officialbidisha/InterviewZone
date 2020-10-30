@@ -19,7 +19,7 @@ const intervieweeRoutes: Routes = [{ path: "", component: IntervieweeComponent }
     CommonModule,
     ReactiveFormsModule,
     FormsModule,
-    RouterModule.forChild(intervieweeRoutes),
+    RouterModule.forChild(intervieweeRoutes), // intended for feature modules.
     StoreModule.forFeature("interviewees", intervieweeReducer),
     EffectsModule.forFeature([IntervieweeEffect])
     

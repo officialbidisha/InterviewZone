@@ -4,7 +4,7 @@
       "name": "Shaurya Sharma",
       "phone": "8921034566",
       "skills": "BlockChain, TwitterIonic",
-      "status": "Approved",
+      "status": "Disapproved",
       "id": 1
     },
     {
@@ -13,13 +13,6 @@
       "skills": "Vue, Java",
       "status": "Disapproved",
       "id": 2
-    },
-    {
-      "name": "Arani Das",
-      "phone": "6213456789",
-      "skills": "C,Java",
-      "status": "Approved",
-      "id": 3
     }
   ]
 }

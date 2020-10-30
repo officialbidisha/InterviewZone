@@ -7,7 +7,7 @@ import { Interviewee } from "../interviewee.model";
 
 
 export enum IntervieweeActionTypes {
-  LOAD_INTERVIEWEES = "[Interviewee] Load Interviewees",
+  LOAD_INTERVIEWEES = "[Interviewee] Load Interviewees",//[Source] Event
   LOAD_INTERVIEWEES_SUCCESS = "[Interviewee] Load Interviewees Success",
   LOAD_INTERVIEWEES_FAIL = "[Interviewee] Load Interviewees Fail",
   LOAD_INTERVIEWEE = "[Interviewee] Load Interviewee",
@@ -25,7 +25,7 @@ export enum IntervieweeActionTypes {
 }
 
 export class LoadInterviewees implements Action {
-  readonly type = IntervieweeActionTypes.LOAD_INTERVIEWEES;
+  readonly type = IntervieweeActionTypes.LOAD_INTERVIEWEES;//
 }
 
 export class LoadIntervieweesSuccess implements Action {

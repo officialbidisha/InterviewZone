@@ -10,7 +10,7 @@ import { Interviewee } from "../interviewee.model";
   templateUrl: './interviewee-list.component.html',
   styleUrls: ['./interviewee-list.component.scss']
 })
-export class IntervieweeListComponent implements OnInit {
+export class IntervieweeListComponent implements OnInit{
 
   // interviewees;
   // constructor(private store: Store<any>) { }
